@@ -3,3 +3,9 @@
 skip-ftbfs-tests-s390x.patch
 pass-waf-flags.diff
 pyldb-util-name.diff
+CVE-2019-3824-1.patch
+CVE-2019-3824-2.patch
+CVE-2019-3824-3.patch
+CVE-2019-3824-4.patch
+CVE-2019-3824-5.patch
+CVE-2019-3824-6.patch
