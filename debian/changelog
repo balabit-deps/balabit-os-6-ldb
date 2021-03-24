@@ -1,3 +1,16 @@
+ldb (2:1.1.24-1ubuntu3.2) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: Heap corruption via crafted DN strings
+    - debian/patches/CVE-2020-27840.patch: avoid head corruption in
+      ldb_dn_explode in common/ldb_dn.c.
+    - CVE-2020-27840
+  * SECURITY UPDATE: Out of bounds read in AD DC LDAP server
+    - debian/patches/CVE-2021-20277.patch: stay in bounds in
+      common/attrib_handlers.c.
+    - CVE-2021-20277
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 24 Mar 2021 08:04:37 -0400
+
 ldb (2:1.1.24-1ubuntu3.1) xenial-security; urgency=medium
 
   * SECURITY UPDATE: Out of bound read in ldb_wildcard_compare
